@@ -64,3 +64,43 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 0% 25% 0% 25%;
+}
+
+nav {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+}
+
+.top-nav {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.logo {
+	margin-right: 30px;
+  }
+
+  .top-sec {
+	  justify-content: space-evenly;
+  }
+
+  .top-sec div {
+	width: 48%;
+	padding: 25px 0px 25px 0px;
+	display: inline-block;
+  }
+  
+  .middle-img {
+	  width: 100%
+  }
