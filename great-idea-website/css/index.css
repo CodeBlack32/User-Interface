@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 0% 25% 5% 25%;
+	background-image: url(https://i.imgur.com/ayg79g9.jpg);
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.top-nav nav {
+		width: 100%;
+		display: inline-block;
+		justify-content: space-between;
+}
+
+nav a {
+	padding-right: 60px;
+	color: blue;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+}
+
+a:hover {
+	color: chocolate;
+}
+
+.top-nav {
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 75px;
+}
+
+.logo {
+	float: right;
+}
+
+.head div {
+	display: inline-block;
+	width: 45%;
+	padding-left: 100px;
+}
+
+.head li {
+	padding-bottom: 10px;
+	font-family: 'Bangers', cursive;
+	font-weight: bolder;
+	font-size: 75px;
+	text-align: center;
+	color: purple;
+	text-shadow: 1px 3px 5px turquoise;
+}
+
+li button {
+	font-size: large;
+	color: aqua;	
+}
+
+button {
+	background-color: black;
+}
+
+  .top-sec {
+	  justify-content: space-evenly;
+  }
+
+  .top-sec div {
+	width: 48%;
+	padding: 25px 0px 25px 0px;
+	display: inline-block;
+  }
+
+  .middle-img {
+	  width: 100%
+  }
+
+  .p-title {
+	  font-size: larger;
+	  font-family: 'Bangers', cursive;
+	  text-shadow: 0px 3px 1px salmon;
+  }
+
+p {
+	color: purple;
+	font-weight: bold;
+}
+
+  .bottom-sec div {
+	width: 30%;
+	padding: 25px 0px 25px 0px;
+	display: inline-block;
+  }
+
+  footer li, footer p, .foot {
+	color: purple;
+	font-weight: bold;
+  }
+
+  footer div {
+	  padding-top: 25px;
+  }
+
+  .foot {
+	  padding-top: 50px;
+	  text-align: center;
+  }
