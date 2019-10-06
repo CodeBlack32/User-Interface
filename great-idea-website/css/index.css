@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,27 +70,65 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 
+/* html {
+	background-image: url(https://st4.depositphotos.com/1653005/20253/i/1600/depositphotos_202530042-stock-photo-abstract-blue-technology-background-binary.jpg);
+} */
+
 .container {
-	padding: 0% 25% 0% 25%;
+	padding: 0% 25% 5% 25%;
+	border: 1px solid green;
 }
 
-nav {
+.top-nav nav {
 		width: 100%;
-		display: flex;
-		justify-content: space-around;
-		flex-direction: row;
+		border: 1px solid rebeccapurple;
+		display: inline-block;
+		justify-content: space-between;
+}
+
+nav a {
+	padding-right: 60px;
+	color: grey;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+}
+
+a:hover {
+	color: chocolate;
 }
 
 .top-nav {
 	height: 50px;
-	display: flex;
-	justify-content: space-between;
 	padding-top: 10px;
+	padding-bottom: 75px;
 }
 
 .logo {
-	margin-right: 30px;
-  }
+	float: right;
+}
+
+.head div {
+	display: inline-block;
+	width: 45%;
+	padding-left: 100px;
+}
+
+.head li {
+	padding-bottom: 10px;
+	font-family: 'Bangers', cursive;
+	font-weight: bolder;
+	font-size: 75px;
+	text-align: center;
+}
+
+li button {
+	font-size: large;	
+}
+
+button {
+	background-color: white;
+}
 
   .top-sec {
 	  justify-content: space-evenly;
@@ -100,7 +139,27 @@ nav {
 	padding: 25px 0px 25px 0px;
 	display: inline-block;
   }
-  
+
   .middle-img {
 	  width: 100%
+  }
+
+  .p-title {
+	  font-size: large;
+	  font-family: 'Bangers', cursive;
+  }
+
+  .bottom-sec div {
+	width: 30%;
+	padding: 25px 0px 25px 0px;
+	display: inline-block;
+  }
+
+  footer div {
+	  padding-top: 25px;
+  }
+
+  .foot {
+	  padding-top: 50px;
+	  text-align: center;
   }
